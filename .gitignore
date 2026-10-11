@@ -1,0 +1,16 @@
+# Dependencies and build output
+node_modules/
+.next/
+out/
+coverage/
+playwright-report/
+test-results/
+
+# Environment and local tooling
+.env.local
+.env.*.local
+!.env.example
+*.tsbuildinfo
+
+# Operating-system files
+.DS_Store
